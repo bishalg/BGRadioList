@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCB3516175B678000185D52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCB3515175B678000185D52 /* UIKit.framework */; };
+		DDCB3518175B678000185D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCB3517175B678000185D52 /* Foundation.framework */; };
+		DDCB351A175B678000185D52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCB3519175B678000185D52 /* CoreGraphics.framework */; };
+		DDCB3520175B678000185D52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDCB351E175B678000185D52 /* InfoPlist.strings */; };
+		DDCB3522175B678000185D52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB3521175B678000185D52 /* main.m */; };
+		DDCB3526175B678000185D52 /* BGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB3525175B678000185D52 /* BGAppDelegate.m */; };
+		DDCB3528175B678000185D52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB3527175B678000185D52 /* Default.png */; };
+		DDCB352A175B678000185D52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB3529175B678000185D52 /* Default@2x.png */; };
+		DDCB352C175B678000185D52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB352B175B678000185D52 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDCB3512175B678000185D52 /* BGRadioList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGRadioList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCB3515175B678000185D52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDCB3517175B678000185D52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDCB3519175B678000185D52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDCB351D175B678000185D52 /* BGRadioList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BGRadioList-Info.plist"; sourceTree = "<group>"; };
+		DDCB351F175B678000185D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDCB3521175B678000185D52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDCB3523175B678000185D52 /* BGRadioList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BGRadioList-Prefix.pch"; sourceTree = "<group>"; };
+		DDCB3524175B678000185D52 /* BGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGAppDelegate.h; sourceTree = "<group>"; };
+		DDCB3525175B678000185D52 /* BGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGAppDelegate.m; sourceTree = "<group>"; };
+		DDCB3527175B678000185D52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDCB3529175B678000185D52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DDCB352B175B678000185D52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCB350F175B678000185D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB3516175B678000185D52 /* UIKit.framework in Frameworks */,
+				DDCB3518175B678000185D52 /* Foundation.framework in Frameworks */,
+				DDCB351A175B678000185D52 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCB3509175B678000185D52 = {
+			isa = PBXGroup;
+			children = (
+				DDCB351B175B678000185D52 /* BGRadioList */,
+				DDCB3514175B678000185D52 /* Frameworks */,
+				DDCB3513175B678000185D52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCB3513175B678000185D52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB3512175B678000185D52 /* BGRadioList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCB3514175B678000185D52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB3515175B678000185D52 /* UIKit.framework */,
+				DDCB3517175B678000185D52 /* Foundation.framework */,
+				DDCB3519175B678000185D52 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDCB351B175B678000185D52 /* BGRadioList */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB3524175B678000185D52 /* BGAppDelegate.h */,
+				DDCB3525175B678000185D52 /* BGAppDelegate.m */,
+				DDCB351C175B678000185D52 /* Supporting Files */,
+			);
+			path = BGRadioList;
+			sourceTree = "<group>";
+		};
+		DDCB351C175B678000185D52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB351D175B678000185D52 /* BGRadioList-Info.plist */,
+				DDCB351E175B678000185D52 /* InfoPlist.strings */,
+				DDCB3521175B678000185D52 /* main.m */,
+				DDCB3523175B678000185D52 /* BGRadioList-Prefix.pch */,
+				DDCB3527175B678000185D52 /* Default.png */,
+				DDCB3529175B678000185D52 /* Default@2x.png */,
+				DDCB352B175B678000185D52 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCB3511175B678000185D52 /* BGRadioList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCB352F175B678000185D52 /* Build configuration list for PBXNativeTarget "BGRadioList" */;
+			buildPhases = (
+				DDCB350E175B678000185D52 /* Sources */,
+				DDCB350F175B678000185D52 /* Frameworks */,
+				DDCB3510175B678000185D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGRadioList;
+			productName = BGRadioList;
+			productReference = DDCB3512175B678000185D52 /* BGRadioList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCB350A175B678000185D52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bishal Ghimire";
+			};
+			buildConfigurationList = DDCB350D175B678000185D52 /* Build configuration list for PBXProject "BGRadioList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDCB3509175B678000185D52;
+			productRefGroup = DDCB3513175B678000185D52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCB3511175B678000185D52 /* BGRadioList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCB3510175B678000185D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB3520175B678000185D52 /* InfoPlist.strings in Resources */,
+				DDCB3528175B678000185D52 /* Default.png in Resources */,
+				DDCB352A175B678000185D52 /* Default@2x.png in Resources */,
+				DDCB352C175B678000185D52 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCB350E175B678000185D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB3522175B678000185D52 /* main.m in Sources */,
+				DDCB3526175B678000185D52 /* BGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDCB351E175B678000185D52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCB351F175B678000185D52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCB352D175B678000185D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDCB352E175B678000185D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCB3530175B678000185D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BGRadioList/BGRadioList-Prefix.pch";
+				INFOPLIST_FILE = "BGRadioList/BGRadioList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDCB3531175B678000185D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BGRadioList/BGRadioList-Prefix.pch";
+				INFOPLIST_FILE = "BGRadioList/BGRadioList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCB350D175B678000185D52 /* Build configuration list for PBXProject "BGRadioList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB352D175B678000185D52 /* Debug */,
+				DDCB352E175B678000185D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCB352F175B678000185D52 /* Build configuration list for PBXNativeTarget "BGRadioList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB3530175B678000185D52 /* Debug */,
+				DDCB3531175B678000185D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCB350A175B678000185D52 /* Project object */;
+}
