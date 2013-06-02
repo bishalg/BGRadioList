@@ -16,6 +16,9 @@
 		DDCB3528175B678000185D52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB3527175B678000185D52 /* Default.png */; };
 		DDCB352A175B678000185D52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB3529175B678000185D52 /* Default@2x.png */; };
 		DDCB352C175B678000185D52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB352B175B678000185D52 /* Default-568h@2x.png */; };
+		DDCB3533175B679A00185D52 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB3532175B679A00185D52 /* Storyboard.storyboard */; };
+		DDCB3537175B681F00185D52 /* BGRadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB3536175B681F00185D52 /* BGRadioView.m */; };
+		DDCB353C175B688B00185D52 /* BGRootViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB353B175B688B00185D52 /* BGRootViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		DDCB3527175B678000185D52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DDCB3529175B678000185D52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DDCB352B175B678000185D52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDCB3532175B679A00185D52 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		DDCB3535175B681F00185D52 /* BGRadioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGRadioView.h; sourceTree = "<group>"; };
+		DDCB3536175B681F00185D52 /* BGRadioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGRadioView.m; sourceTree = "<group>"; };
+		DDCB353A175B688B00185D52 /* BGRootViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGRootViewVC.h; sourceTree = "<group>"; };
+		DDCB353B175B688B00185D52 /* BGRootViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGRootViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,9 @@
 		DDCB351B175B678000185D52 /* BGRadioList */ = {
 			isa = PBXGroup;
 			children = (
-				DDCB3524175B678000185D52 /* BGAppDelegate.h */,
-				DDCB3525175B678000185D52 /* BGAppDelegate.m */,
+				DDCB3539175B685D00185D52 /* ViewController */,
+				DDCB3538175B684D00185D52 /* AppDelegate */,
+				DDCB3534175B681F00185D52 /* View */,
 				DDCB351C175B678000185D52 /* Supporting Files */,
 			);
 			path = BGRadioList;
@@ -95,8 +104,36 @@
 				DDCB3527175B678000185D52 /* Default.png */,
 				DDCB3529175B678000185D52 /* Default@2x.png */,
 				DDCB352B175B678000185D52 /* Default-568h@2x.png */,
+				DDCB3532175B679A00185D52 /* Storyboard.storyboard */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDCB3534175B681F00185D52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB3535175B681F00185D52 /* BGRadioView.h */,
+				DDCB3536175B681F00185D52 /* BGRadioView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDCB3538175B684D00185D52 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB3524175B678000185D52 /* BGAppDelegate.h */,
+				DDCB3525175B678000185D52 /* BGAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DDCB3539175B685D00185D52 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB353A175B688B00185D52 /* BGRootViewVC.h */,
+				DDCB353B175B688B00185D52 /* BGRootViewVC.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +192,7 @@
 				DDCB3528175B678000185D52 /* Default.png in Resources */,
 				DDCB352A175B678000185D52 /* Default@2x.png in Resources */,
 				DDCB352C175B678000185D52 /* Default-568h@2x.png in Resources */,
+				DDCB3533175B679A00185D52 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +205,8 @@
 			files = (
 				DDCB3522175B678000185D52 /* main.m in Sources */,
 				DDCB3526175B678000185D52 /* BGAppDelegate.m in Sources */,
+				DDCB3537175B681F00185D52 /* BGRadioView.m in Sources */,
+				DDCB353C175B688B00185D52 /* BGRootViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BGRadioList/BGRadioList-Prefix.pch";
 				INFOPLIST_FILE = "BGRadioList/BGRadioList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -257,6 +298,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BGRadioList/BGRadioList-Prefix.pch";
 				INFOPLIST_FILE = "BGRadioList/BGRadioList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
