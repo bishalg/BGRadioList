@@ -4,7 +4,8 @@
 //
 //  Created by Bishal Ghimire on 6/2/13.
 //  Copyright (c) 2013 Bishal Ghimire. All rights reserved.
-//
+// Inspired from Raywenderlich Tutorial on custom uiview 
+// http://www.raywenderlich.com/1768/how-to-make-a-custom-uiview-a-5-star-rating-view
 
 #import "BGRootViewVC.h"
 

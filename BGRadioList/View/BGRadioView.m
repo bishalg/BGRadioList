@@ -39,9 +39,7 @@ int selectedRow = -1;
     static NSString *cellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    //if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-    //}
+    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     
     UILabel *labelOne = [[UILabel alloc]initWithFrame:CGRectMake(20, 5, 140, 20)];
@@ -63,7 +61,6 @@ int selectedRow = -1;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // selectedRow = indexPath.row;
     optionNo = indexPath.row;
     [self.delegate radioView:self didSelectOption:indexPath.row fortag:tag];
     [tableView reloadData];
